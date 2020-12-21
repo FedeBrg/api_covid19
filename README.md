@@ -6,6 +6,12 @@ Esta API fue desarrollada como evaluacion final para la materia `72.74 - Visuali
 ## Autores
 Bergagna, Federico Manuel. Baader, Juan Martín. Rodríguez Brizi, Manuel
 
+## Visualizaciones con la API
+
+[ObservavbleHQ](https://observablehq.com/@fedebrg/infovis-final)
+
+[Google Colab Python](https://colab.research.google.com/drive/1njqgRzQQrYrM6IRjSNttTh4p9zjNDJ3Z?usp=sharing)
+
 ## Instrucciones
 
 Son necesarias un par de librerias, para la instalación de las mismas se puede utilizar pip install a medida que sean requeridas.
