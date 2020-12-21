@@ -4,9 +4,7 @@
 Esta API fue desarrollada como evaluacion final para la materia `72.74 - Visualización de la Información`. La misma fue desarrollada en lenguaje Python utilizando las librerias `Pandas` para las visualizaciones y `Flask` para poder hacer los pedidos de información.
 
 ## Autores
-Bergagna, Federico Manuel
-Baader, Juan Martín
-Rodríguez Brizi, Manuel
+Bergagna, Federico Manuel. Baader, Juan Martín. Rodríguez Brizi, Manuel
 
 ## Instrucciones
 
