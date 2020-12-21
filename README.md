@@ -119,7 +119,7 @@ Un ejemplo para tener la cuenta de casos entre los días 2 y 5 de diciembre:
 
 12)  De forma similar al caso anterior puede hacerse para una provincia particular con:
 
-		$> curl localhost:5000/nacion/provincias/{id}/cuenta
+	$> curl localhost:5000/nacion/provincias/{id}/cuenta
 
 13) De forma similar a los casos anteriores puede hacerse para un departamento/partido:
 
