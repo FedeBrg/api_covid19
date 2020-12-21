@@ -29,5 +29,6 @@ CREATE TABLE covid (
 
 COPY covid FROM 'C:\Users\fedeb\Desktop\api_infovis\Covid19Casos.csv' CSV HEADER;
 
-update covid set edad = 1 where edad_años_meses LIKE 'Meses';
+DELETE FROM covid WHERE fecha_diagnostico < '2019-12-31';
 
+UPDATE covid SET edad = 1 WHERE edad_años_meses LIKE 'Meses';
