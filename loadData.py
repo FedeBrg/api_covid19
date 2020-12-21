@@ -13,7 +13,7 @@ import os
 def save_data_copy():
 
 	print("UPDATING DATA")
-	filename = 'C:\\Users\\fedeb\\Desktop\\api_infovis\\Covid19Casos.csv'
+	filename = 'Covid19Casos.csv'
 	if os.path.exists(filename):
 		os.remove(filename)
 
