@@ -105,15 +105,25 @@ En los siguientes ejemplos se utilizará cURL para hacer las llamadas a la API.
 11) Cantidad de casos a nivel nacional donde se cumplen condiciones determinadas según los Query Parameters provistos. Los mismos pueden ser:
 
 	a) fallecidos = Contar fallecidos (por defecto es diagnosticados) 
+	
 	b) respirador = Se precisó de respirador  
+	
 	c) financiamiento = Tipo de financiamiento  
+	
 	d) sexo = Sexo de la persona 
+	
 	e) intensivo = Es un paciente en terapia intensiva 
+	
 	f) tipo = Clasificación 
+	
 	g) fechaD = Fecha de inicio para contar
+	
 	h) fechaH = Fecha de fin para contar 
+	
 	i) edadD = Inicio de edad de los pacientes
+	
 	j) edadH = Final de edad de los pacientes
+	
 
 Un ejemplo para tener la cuenta de casos entre los días 2 y 5 de diciembre:
 
