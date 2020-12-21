@@ -12,6 +12,11 @@ Son necesarias un par de librerias, para la instalación de las mismas se puede 
 
 Con las librerias instaladas, es necesario contar con un Postgres instalado en la computadora, con una base de datos llamada `api_infovis`. Se asume que el usuario es **postgres** y la contraseña es **postgres**. 
 
+### Nota
+
+En el script `data_update.sql` esta hardcodeado el path al archivo .csv, hay que modificar eso para que apunte al lugar correspondiente
+
+
 Ahora estamos en condiciones de correr la API, a través del comando:
 
 	$> python api.py update
