@@ -36,7 +36,7 @@ def save_data_copy():
  
 	file.close()
 
-	cursor.execute("DROP TABLE covid;")
+	cursor.execute("DROP TABLE IF EXISTS covid;")
 	
 	print("VACUUMING DB")
 	os.system("vacuumdb --full api_infovis")
