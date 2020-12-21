@@ -5,16 +5,9 @@ from datetime import date
 import psycopg2 as postgres
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 
-
-
 import wget
 
 import os
-
-import subprocess
-
-
-
 
 
 def save_data_copy():
@@ -57,5 +50,8 @@ def save_data_copy():
 
 	cursor.close()
 	conn.close()
+
+
+
 
 
